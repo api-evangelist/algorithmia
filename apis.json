@@ -1,0 +1,90 @@
+{
+    "name": "Algorithmia",
+    "description": "Algorithmia makes applications smarter, by building a community around algorithm development, where state of the art algorithms are always live and accessible to anyone.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/11780-algorithmia.jpg",
+    "tags": [
+        "algorithms",
+        "api provider",
+        "api service provider",
+        "deployment",
+        "have api",
+        "machine learning",
+        "no api definition",
+        "serverless"
+    ],
+    "created": "2019-12-18",
+    "modified": "2019-12-18",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/algorithmia\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Algorithmia",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/11780-algorithmia.jpg",
+            "humanURL": "https:\/\/algorithmia.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/algorithmia-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Blog",
+            "url": "http:\/\/blog.algorithmia.com\/"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/blog.algorithmia.com\/rss"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/algorithmia"
+        },
+        {
+            "type": "Documentation",
+            "url": "https:\/\/algorithmia.com\/docs"
+        },
+        {
+            "type": "Email",
+            "url": "jobs@algorithmia.com"
+        },
+        {
+            "type": "Email",
+            "url": "info@algorithmia.com"
+        },
+        {
+            "type": "Email",
+            "url": "sales@algorithmia.com"
+        },
+        {
+            "type": "Email",
+            "url": "support@algorithmia.com"
+        },
+        {
+            "type": "Email",
+            "url": "press@algorithmia.com"
+        },
+        {
+            "type": "Email",
+            "url": "copyright@algorithmia.com"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/algorithmia"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/algorithmiaio"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/algorithmia.com"
+        }
+    ]
+}
