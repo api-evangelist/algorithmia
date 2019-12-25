@@ -1,0 +1,542 @@
+{
+    "id": "96c6b2cdf2c0a6f435a37015727ce8c2",
+    "name": "Algorithmia Management APIs",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "c24e0d0aec9720f1be536c4d1aec0ba4",
+            "name": "Creates an Algorithmia user in the system",
+            "url": "{{baseUrl}}\/users",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "POST",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "96c6b2cdf2c0a6f435a37015727ce8c2",
+            "rawModeData": ""
+        },
+        {
+            "id": "f4901c021167eb6507b19f64daedc48a",
+            "name": "Update Algorithm",
+            "url": "{{baseUrl}}\/algorithms\/:username\/:algoname",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "PUT",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "username",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "algoname",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "96c6b2cdf2c0a6f435a37015727ce8c2",
+            "rawModeData": ""
+        },
+        {
+            "id": "cbce15fe2114831ef83e1ee065142ccb",
+            "name": "Get Algorithm",
+            "url": "{{baseUrl}}\/algorithms\/:username\/:algoname",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "username",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "algoname",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "96c6b2cdf2c0a6f435a37015727ce8c2",
+            "rawModeData": ""
+        },
+        {
+            "id": "628c990edb2cdd3160aa864df11b29e9",
+            "name": "Creates an Organization owned by the caller",
+            "url": "{{baseUrl}}\/organizations",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "POST",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "96c6b2cdf2c0a6f435a37015727ce8c2",
+            "rawModeData": ""
+        },
+        {
+            "id": "bef1ddcc8b58db058ec72522ee5b46ad",
+            "name": "Lists all organizations",
+            "url": "{{baseUrl}}\/organizations?limit=<integer>&marker=<string>",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "limit",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "marker",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "96c6b2cdf2c0a6f435a37015727ce8c2",
+            "rawModeData": ""
+        },
+        {
+            "id": "7528e386fce85a8c68c3ddfde6709c1a",
+            "name": "Remove a user from an organization",
+            "url": "{{baseUrl}}\/organizations\/:orgName\/members\/:username",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "DELETE",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "username",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "orgName",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "96c6b2cdf2c0a6f435a37015727ce8c2",
+            "rawModeData": ""
+        },
+        {
+            "id": "108306adeeb73151290c02a9d1c9aad4",
+            "name": "Add a user as a member of a given organization",
+            "url": "{{baseUrl}}\/organizations\/:orgName\/members\/:username",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "PUT",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "username",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "orgName",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "96c6b2cdf2c0a6f435a37015727ce8c2",
+            "rawModeData": ""
+        },
+        {
+            "id": "9e9bedee0eb586ecf952b5a1113ee5bd",
+            "name": "Get a user represented by the provided username",
+            "url": "{{baseUrl}}\/users\/:username",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "username",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "96c6b2cdf2c0a6f435a37015727ce8c2",
+            "rawModeData": ""
+        },
+        {
+            "id": "24c15fd915d013b1b91687e6bba40098",
+            "name": "Update a user represented by the provided username",
+            "url": "{{baseUrl}}\/users\/:username",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "PUT",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "username",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "96c6b2cdf2c0a6f435a37015727ce8c2",
+            "rawModeData": ""
+        },
+        {
+            "id": "d307e4c663cee04f00b7d5151d83d903",
+            "name": "Delete a user represented by the provided username",
+            "url": "{{baseUrl}}\/users\/:username",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "DELETE",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "username",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "96c6b2cdf2c0a6f435a37015727ce8c2",
+            "rawModeData": ""
+        },
+        {
+            "id": "1dff2fc3596a4ace08bb40a37f598655",
+            "name": "Delete an organization",
+            "url": "{{baseUrl}}\/organizations\/:orgName",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "DELETE",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "orgName",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "96c6b2cdf2c0a6f435a37015727ce8c2",
+            "rawModeData": ""
+        },
+        {
+            "id": "023f85aca3f57cf76154ef74bd6058fa",
+            "name": "Get an organization represented by the provided orgName",
+            "url": "{{baseUrl}}\/organizations\/:orgName",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "orgName",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "96c6b2cdf2c0a6f435a37015727ce8c2",
+            "rawModeData": ""
+        },
+        {
+            "id": "d5afc114a113ea60c7d98922ffeb416a",
+            "name": "Lists all managed users",
+            "url": "{{baseUrl}}\/users?limit=<integer>&marker=<string>",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "limit",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "marker",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "96c6b2cdf2c0a6f435a37015727ce8c2",
+            "rawModeData": ""
+        },
+        {
+            "id": "08f93865c8b432fee5905c7f28f41c92",
+            "name": "Create Algorithm",
+            "url": "{{baseUrl}}\/algorithms\/:username",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "POST",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "username",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "96c6b2cdf2c0a6f435a37015727ce8c2",
+            "rawModeData": ""
+        },
+        {
+            "id": "051792c1ab6117478a33ab2b81cb6751",
+            "name": "List of members with their roles in a given organization",
+            "url": "{{baseUrl}}\/organizations\/:orgName\/members",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "orgName",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "96c6b2cdf2c0a6f435a37015727ce8c2",
+            "rawModeData": ""
+        },
+        {
+            "id": "24a8b400675dac8715c81594c2a631d8",
+            "name": "Publish Algorithm",
+            "url": "{{baseUrl}}\/algorithms\/:username\/:algoname\/versions",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "POST",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "username",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "algoname",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "96c6b2cdf2c0a6f435a37015727ce8c2",
+            "rawModeData": ""
+        }
+    ]
+}
