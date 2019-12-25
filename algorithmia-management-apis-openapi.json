@@ -1,0 +1,268 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Algorithmia Management",
+        "description": "APIs for managing actions on the Algorithmia platform.",
+        "termsOfService": ""
+    },
+    "servers": [],
+    "paths": {
+        "{{baseUrl}}\/users": {
+            "POST": {
+                "summary": "Creates an Algorithmia user in the system",
+                "description": "",
+                "operationId": "CreatesAnAlgorithmiaUserInTheSystem",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "{{baseUrl}}\/algorithms\/:username\/:algoname": {
+            "PUT": {
+                "summary": "Update Algorithm",
+                "description": "",
+                "operationId": "UpdateAlgorithm",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "username",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "algoname",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "GET": {
+                "summary": "Get Algorithm",
+                "description": "",
+                "operationId": "GetAlgorithm",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "username",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "algoname",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "{{baseUrl}}\/organizations": {
+            "POST": {
+                "summary": "Creates an Organization owned by the caller",
+                "description": "",
+                "operationId": "CreatesAnOrganizationOwnedByTheCaller",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "{{baseUrl}}\/organizations?limit=<integer>&marker=<string>": {
+            "GET": {
+                "summary": "Lists all organizations",
+                "description": "",
+                "operationId": "ListsAllOrganizations",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "limit",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "marker",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "{{baseUrl}}\/organizations\/:orgName\/members\/:username": {
+            "DELETE": {
+                "summary": "Remove a user from an organization",
+                "description": "",
+                "operationId": "RemoveAUserFromAnOrganization",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "username",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "orgName",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "PUT": {
+                "summary": "Add a user as a member of a given organization",
+                "description": "",
+                "operationId": "AddAUserAsAMemberOfAGivenOrganization",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "username",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "orgName",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "{{baseUrl}}\/users\/:username": {
+            "GET": {
+                "summary": "Get a user represented by the provided username",
+                "description": "",
+                "operationId": "GetAUserRepresentedByTheProvidedUsername",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "username",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "PUT": {
+                "summary": "Update a user represented by the provided username",
+                "description": "",
+                "operationId": "UpdateAUserRepresentedByTheProvidedUsername",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "username",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "DELETE": {
+                "summary": "Delete a user represented by the provided username",
+                "description": "",
+                "operationId": "DeleteAUserRepresentedByTheProvidedUsername",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "username",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "{{baseUrl}}\/organizations\/:orgName": {
+            "DELETE": {
+                "summary": "Delete an organization",
+                "description": "",
+                "operationId": "DeleteAnOrganization",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "orgName",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "GET": {
+                "summary": "Get an organization represented by the provided orgName",
+                "description": "",
+                "operationId": "GetAnOrganizationRepresentedByTheProvidedOrgname",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "orgName",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "{{baseUrl}}\/users?limit=<integer>&marker=<string>": {
+            "GET": {
+                "summary": "Lists all managed users",
+                "description": "",
+                "operationId": "ListsAllManagedUsers",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "limit",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "marker",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "{{baseUrl}}\/algorithms\/:username": {
+            "POST": {
+                "summary": "Create Algorithm",
+                "description": "",
+                "operationId": "CreateAlgorithm",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "username",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "{{baseUrl}}\/organizations\/:orgName\/members": {
+            "GET": {
+                "summary": "List of members with their roles in a given organization",
+                "description": "",
+                "operationId": "ListOfMembersWithTheirRolesInAGivenOrganization",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "orgName",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "{{baseUrl}}\/algorithms\/:username\/:algoname\/versions": {
+            "POST": {
+                "summary": "Publish Algorithm",
+                "description": "",
+                "operationId": "PublishAlgorithm",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "username",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "algoname",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
