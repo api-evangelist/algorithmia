@@ -9,16 +9,18 @@
         "deployment",
         "have api",
         "machine learning",
+        "new",
         "no api definition",
+        "postman collections",
         "serverless"
     ],
-    "created": "2019-12-20",
-    "modified": "2019-12-20",
+    "created": "2019-12-25",
+    "modified": "2019-12-25",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/algorithmia\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
         {
-            "name": "Algorithmia",
+            "name": "Algorithmia Management",
             "description": null,
             "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/11780-algorithmia.jpg",
             "humanURL": "https:\/\/algorithmia.com",
@@ -27,7 +29,11 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/algorithmia\/master\/algorithmia-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/algorithmia\/master\/algorithmia-management-apis-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/algorithmia\/master\/algorithmia-management-apis-postman-collection.json"
                 }
             ]
         }
@@ -43,8 +49,16 @@
             "url": "http:\/\/blog.algorithmia.com\/"
         },
         {
+            "type": "Blog",
+            "url": "https:\/\/algorithmia.com\/blog"
+        },
+        {
             "type": "Blog RSS",
             "url": "http:\/\/blog.algorithmia.com\/rss"
+        },
+        {
+            "type": "Contact Form",
+            "url": "https:\/\/algorithmia.com\/contact"
         },
         {
             "type": "Crunchbase",
@@ -53,6 +67,10 @@
         {
             "type": "Documentation",
             "url": "https:\/\/algorithmia.com\/docs"
+        },
+        {
+            "type": "Documentation",
+            "url": "https:\/\/algorithmia.com\/developers\/api\/"
         },
         {
             "type": "Email",
@@ -77,6 +95,18 @@
         {
             "type": "Email",
             "url": "copyright@algorithmia.com"
+        },
+        {
+            "type": "Partners",
+            "url": "https:\/\/algorithmia.com\/partners"
+        },
+        {
+            "type": "Pricing",
+            "url": "https:\/\/algorithmia.com\/pricing"
+        },
+        {
+            "type": "Pricing",
+            "url": "https:\/\/algorithmia.com\/press"
         },
         {
             "type": "Twitter",
